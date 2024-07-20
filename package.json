@@ -1,0 +1,50 @@
+{
+  "name": "dragonos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@emotion/css": "^11.11.2",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@reduxjs/toolkit": "^2.1.0",
+    "@visx/event": "^3.3.0",
+    "@visx/group": "^3.3.0",
+    "@visx/shape": "^3.5.0",
+    "@visx/tooltip": "^3.3.0",
+    "@visx/visx": "^3.8.0",
+    "autoprefixer": "^10.4.17",
+    "crypto-js": "^4.2.0",
+    "postcss": "^8.4.34",
+    "react": "^18.2.0",
+    "react-chatbot-kit": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.1",
+    "react-scroll": "^1.9.0",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^10.0.4",
+    "terser": "^5.27.0",
+    "victory": "^36.9.1",
+    "victory-tooltip": "^36.9.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}

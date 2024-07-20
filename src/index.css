@@ -1,0 +1,31 @@
+/* tailwind.css or your custom styles file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    margin: 0 auto !important;
+    max-width: 133rem !important;
+    padding: 0 2.5rem !important;
+
+    /* Media queries for different screen sizes */
+    @media (max-width: 768px) {
+      /* Styles for screens up to 768px wide */
+      max-width: 100% !important;
+      padding: 0 1rem !important;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      /* Styles for screens between 768px and 1024px wide */
+      max-width: 100% !important;
+      padding: 0 1.5rem !important;
+    }
+
+    @media (min-width: 1024px) {
+      /* Styles for screens larger than 1024px wide */
+      max-width: 133rem !important;
+      padding: 0 2.5rem !important;
+    }
+  }
+}
